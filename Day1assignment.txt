@@ -1,0 +1,35 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Ans: 
+
+HTTP1.1: 
+
+>> HTTP/1.1 is the first standardized version of HTTP. It was introduced in the year 1997. It was a better upgrade compared to the earlier versions of HTTP 0.9 and HTTP 1.0
+
+>> In the earlier versions of HTTP, a connection was terminated immediately after a request was served with response, but it was no longer required for HTTP1.1 a keep-alive header was introduced which helped in maintaining consequent multiple connections. 
+
+Some of the advantages were 
+
+1. Pipelining - a second request can be sent as soon as the first one is served
+
+2. content negotiation - The client and server could have an exchange to determine the media type. 
+
+3. cache control - Helped to specify caching policies in both requests and responses
+
+
+HTTP2:
+
+>> HTTP2 was introduced in the year 2015 based on SPDY, the experimental protocol by google. 
+
+>> The key feature of HTTP2 is that it introduced the concept of Server push. This means, a server anticipate the resources required by  the client and publish them before the client makes the request. But the authority to deny the server push is with the client.
+
+>> It introduced the concept of multiplexing in a single TCP connection
+
+>> HTTP2 is much faster and more reliable than HTTP1. HTTP2 avoids network delay by using multiplexing. 
+
+
+
+
+
+
+
